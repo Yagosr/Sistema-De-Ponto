@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Dados de exemplo (pode ser obtido do servidor em um ambiente real)
     const employees = [
       { name: " Yago Santana Rocha", vacationStart: "2023-12-01", vacationEnd: "2023-12-15" },
-      { name: "Allan siririco", vacationStart: "2023-12-10", vacationEnd: "2023-12-20" },
+      { name: "Allan Santos", vacationStart: "2023-12-10", vacationEnd: "2023-12-20" },
       // Adicione mais funcionários conforme necessário
     ];
   
@@ -21,6 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
       approveBtn.innerHTML = "Aprovar";
       approveBtn.addEventListener("click", () => {
         alert(`Férias de ${employee.name} aprovadas!`);
+
+        employeeDiv.remove();
       });
   
       employeeDiv.appendChild(employeeInfo);

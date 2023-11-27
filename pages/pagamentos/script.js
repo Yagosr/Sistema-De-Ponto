@@ -11,14 +11,16 @@ function abrirFolhaPagamento() {
     }
 
     if (folhaPagamento) {
-        folhaPagamento.style.width = '100%';
+        folhaPagamento.style.width = '50%';
         folhaPagamento.style.visibility = 'visible';
         folhaPagamento.style.opacity = '1';
     }
 
     if (title) {
-        title.style.width = '94.5%';
+        if (window.innerWidth > 600) {
+            title.style.width = '94.5%';
+        }
     }
-}
 
-button.disabled = nomeFuncionario.trim() === '' || senhaFuncionario.trim() === '';
+    button.disabled = nomeFuncionario.trim() === '' || senhaFuncionario.trim() === '';
+}

@@ -1,56 +1,76 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(86, 146, 146);
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 50px auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
-    text-align: center;
-    color: #333;
-  }
-  
-  .employee {
-    border: 1px solid #ddd;
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .btn {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .btn:hover {
-    background-color: #45a049;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(86, 146, 146);
+}
 
-  .buttonBack {
-    text-decoration: none;
-    background-color: #8f8e8e;
-    border: 1px solid #8f8e8e;
-    color: black;
-    border-radius: 5px;
-    padding: 0.3rem 1rem;
-    position: absolute;
-    bottom: 0; 
-    left: 0; 
-    margin: 1rem 3rem; 
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.employee {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.buttonBack {
+  text-decoration: none;
+  background-color: #8f8e8e;
+  border: 1px solid #8f8e8e;
+  color: black;
+  border-radius: 5px;
+  padding: 0.3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 1rem 3rem;
 }
 
 .buttonBack:hover {
-    background-color: #4caf50;
+  background-color: #4caf50;
+}
+
+
+@media screen and (max-width: 600px) {
+  .container {
+      padding: 10px;
+  }
+
+  .employee {
+      padding: 8px;
+  }
+
+  .btn {
+      padding: 6px 10px;
+  }
+
+  .buttonBack {
+      padding: 0.2rem 0.5rem;
+      margin: 1rem 1rem;
+  }
 }

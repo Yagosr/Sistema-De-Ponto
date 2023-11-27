@@ -95,3 +95,28 @@ body {
 .buttonBack:hover {
     background-color: #4caf50;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .form {
+        width: 50%;
+        margin-left: 8rem;
+    }
+    .title {
+        width: 51.5%;
+        margin-left: 8rem;
+        transition: none;
+    }
+    .folhaPagamento {
+        margin-left: 8rem;
+        justify-content: start;
+        align-items: start;
+        width: 50%;
+    }
+
+    #button{
+        width: 100%;
+    }
+}
