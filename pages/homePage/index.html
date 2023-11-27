@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponto Dear Book</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <navigation>
+        <div class="menu">
+            <a class="link" href="file:///C:/Users/yagoe/Desktop/pontoDearBook/pages/pagamentos/index.html">
+                <strong>Folha de pagamento</strong>
+            </a>
+            <a class="link" href="file:///C:/Users/yagoe/Desktop/pontoDearBook/pages/ferias/index.html">
+                <strong>Acompanhamento de Ferias</strong>
+            </a>
+        </div>
+    </navigation>
+
+    <div class="container">
+        <div class="content">
+            <div class="jornada">
+                <h1>Jornada</h1>
+                <div id="relogio"></div>
+                <div id="jornadaAtual"></div>
+            </div>
+            <footer>
+                <div>
+                    <h1>Marcar entrada</h1>
+                    <input type="time" id="entrada" onchange="atualizarJornada()">
+                </div>
+                <div>
+                    <h1>Marcar Saída</h1>
+                    <input type="time" id="saida" onchange="atualizarJornada()">
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <a class="back" href="file:///C:/Users/yagoe/Desktop/pontoDearBook/index.html">
+        <button class="buttonBack">Voltar</button>
+    </a>
+    
+    <script src="./script.js"></script>
+</html>

@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 3rem;
+    background-color: rgb(86, 146, 146);
+}
+
+container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+strong{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid black;
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #8f8e8e;
+}
+strong:hover{
+    background-color: #4caf50;
+}
+
+.content {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.jornada {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 230px;
+    height: 230px;
+    background-color: #8f8e8e;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+}
+
+input {
+    width: 80px;
+}
+
+.buttonBack {
+    text-decoration: none;
+    background-color: #8f8e8e;
+    border: 1px solid #8f8e8e;
+    color: black;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    margin: 1rem 3rem; 
+}
+
+.buttonBack:hover {
+    background-color: #4caf50;
+}

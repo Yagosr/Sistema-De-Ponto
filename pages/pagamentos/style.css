@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 5rem 0;
+    background-color: rgb(86, 146, 146);
+}
+
+.title {
+    border: 1px solid black;
+    width: 266.5px;
+    overflow: hidden;
+    transition: width 0.5s ease; 
+    padding: 0 1rem;
+    background-color: #8f8e8e;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+}
+
+.form {
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    background-color: #8f8e8e;
+}
+
+.funcionario{
+    width: 13.5vw;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.contentForm{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color: #8f8e8e;
+}
+
+#button{
+    margin: 1rem 0;
+    width: 10vw;
+}
+
+.folhaPagamento {
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    visibility: hidden;
+    opacity: 0;
+    transition: width 0.5s ease, visibility 0.5s ease, opacity 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #8f8e8e;
+}
+
+.contentInfo{
+    display: flex;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.infoRight{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.cash{
+    display: flex;
+    flex-direction:column;
+}
+
+.buttonBack {
+    text-decoration: none;
+    background-color: #8f8e8e;
+    border: 1px solid #8f8e8e;
+    color: black;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    margin: 4rem 3rem; 
+}
+
+.buttonBack:hover {
+    background-color: #4caf50;
+}

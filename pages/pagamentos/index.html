@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folha De Pagamento</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>  
+    <container>
+        <content>
+            <div class="title" id="title">
+                <strong>Folha De Pagamento</strong>
+            </div>
+            <div class="container">
+    
+                <div class="form" id="form">
+                    <div class="contentForm">
+                        <strong>Gerar Folha De Pagamento</strong>
+                        <div class="funcionario">
+                            <div>
+                                <strong id="nomeLabel">Nome Do Funcionario</strong>
+                                <input style="border: 1px solid black; border-radius: 5px;" placeholder="Yago" type="text" id="funcionarioNome">
+                            </div>
+                            <div>
+                                <strong id="senhaLabel">Senha do funcionario</strong>
+                                <input style="border: 1px solid black; border-radius: 5px;" placeholder="*********" type="password" id="funcionarioSenha">
+                            </div>
+                        </div>
+                        <button id="button" onclick="abrirFolhaPagamento()">Salvar</button>
+                    </div>
+                </div>
+        
+                <div class="folhaPagamento" id="folhaPagamento">
+                    <strong>Folha de Pagamento para <span id="nomeFuncionario"></span></strong>
+                    <div class="contentInfo">
+                        <div class="info">
+                            <div class="cash">
+                                <strong>salario Bruto</strong>
+                                <span>R$ 1.800.00</span>
+                            </div>
+                            <div class="cash">
+                                <strong>salario Liquido</strong>
+                                <span>R$ 1.332.00</span>
+                            </div>
+                            <div class="cash">
+                                <strong>Desconto FGTS</strong>
+                                <span>R$ 144.00</span>
+                            </div>
+                        </div>
+                        <div class="infoRight">
+                            <div class="cash">
+                                <strong>Desconto Beneficios</strong>
+                                <span>R$ 108.00</span>
+                            </div>
+                            <div class="cash">
+                                <strong>Desconto INSS</strong>
+                                <span>R$ 216.00</span>
+                            </div>
+                            <div class="cash">
+                                <strong>Total D/ Descontos</strong>
+                                <span>R$ 268.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </content>
+    </container>
+    <a class="back" href="file:///C:/Users/yagoe/Desktop/pontoDearBook/pages/homePage/index.html">
+        <button class="buttonBack">Voltar</button>
+    </a>
+    <script src="./script.js"></script>
+</body>
+</html>
